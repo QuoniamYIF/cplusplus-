@@ -2,7 +2,7 @@
 using namespace std;
 int main()
 {
-    int a[10],n;
+    int a[10];
     int l=0, r=9;
     int temp;
     for(int i = 0;i < 10;i ++){
@@ -24,19 +24,23 @@ int main()
             l++; r--;              
         }
     }
+    for(int i = 0;i < 10;i ++){
+        cout << a[i] << " ";
+    }
     int start = 0, end = l;
     for(int i = start;i < end;i ++){
-        for(int j = start+1;j < end;j ++){
+        for(int j = i+1;j < end;j ++){
             if(a[i] > a[j]){
                 temp = a[j];
                 a[j] = a[i];
                 a[i] = temp;
             }
         }
+        cout << endl;
     }
     start = l; end = 10;
     for(int i = start;i < end;i ++){
-        for(int j = start+1;j < end;j ++){
+        for(int j = i+1;j < end;j ++){
             if(a[i] > a[j]){
                 temp = a[i];
                 a[i] = a[j];
@@ -45,7 +49,7 @@ int main()
         }    
     }
     for(int i = 0;i < 10;i ++){
-        cout << a[i] << endl;
+        cout << a[i] << " ";
     }
     return 0;
 }
