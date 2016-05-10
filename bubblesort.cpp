@@ -9,10 +9,10 @@ int main()
         cin >> a[i];
     }
     for(int j = 0;j < n;j ++){
-        for(int i = j+1; i < n;i ++){
-            if(a[j] > a[i]){
-                temp = a[j];
-                a[j] = a[i];
+        for(int i = 1; i < n - j;i ++){
+            if(a[i-1] > a[i]){
+                temp = a[i-1];
+                a[i-1] = a[i];
                 a[i] = temp;
             }
         }
