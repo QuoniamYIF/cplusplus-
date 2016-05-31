@@ -17,8 +17,7 @@ int main()
             pre[i + 1] = i;
         }
         pre[0] = n-1;
-        next[n-1] = 0;
-        
+        next[n-1] = 0;        
         //开始数数  
         int current = 0; 
         while(true){
