@@ -21,4 +21,5 @@ int main()
       cout << a[i] << " ";
   }
   return 0;
+  //O(n*c）的算法是什么样的
 }

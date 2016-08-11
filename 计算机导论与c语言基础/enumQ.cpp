@@ -22,5 +22,5 @@ int main()
         else
             cout << "D" << endl;
     }
-    return 0;
+    return 0;    
 }

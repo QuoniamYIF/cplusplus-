@@ -3,6 +3,7 @@ using namespace std;
 int main()
 {
     int n,x,y;
+    
     cin >> n >> x >> y;    
     if(y%x == 0) {
         if(n > y/x) {

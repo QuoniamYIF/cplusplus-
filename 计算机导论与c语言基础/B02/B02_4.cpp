@@ -3,6 +3,7 @@ using namespace std;
 int main()
 {
     int even[6], odd[6], c[6];
+    
     int oddMax = 0;
     int evenMin = 1000;
     int evenC = 0;

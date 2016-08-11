@@ -6,6 +6,7 @@ int main() {
   for(int i = 0;i < 10;i ++){
       cin >> a[i];
   }
+  
   for(int i = 0;i < 9;i ++){
       for(int j = 1;j < 10 - i;j ++){
           int leftisEven = a[j-1] % 2 == 0;

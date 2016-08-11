@@ -3,6 +3,7 @@ using namespace std;
 int main()
 {
     int m,a[100];
+    
     int oneC=0, fiveC=0, tenC=0;
     cin >> m;
     for(int i = 0;i < m;i ++){

@@ -12,5 +12,6 @@ int main()
     while(iC > 0){
         cout << a[--iC] <<endl;
     }
+    
     return 0;
 }

@@ -8,6 +8,7 @@ int main()
     for(int i = 0;i < 10;i ++){
         cin >> a[i];
     }
+    
     while(l <= r){
         int leftisOdd = a[l] % 2 == 1;
         int rightisEven = a[r] % 2 == 0;

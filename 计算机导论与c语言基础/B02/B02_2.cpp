@@ -4,6 +4,7 @@ int main()
 {
     int h, r;
     cin >> h >> r;
+    
     double pi = 3.14159;
     double square = pi * r * r * h;    
     double result = 20000 / square;    

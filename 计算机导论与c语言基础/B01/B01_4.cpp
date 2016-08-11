@@ -4,6 +4,7 @@ int main()
 {
     int N, m;
     cin >> N;
+    
     for(int i =0;i < N;i ++){
         int oneC = 0;
         // int length = 1;        
